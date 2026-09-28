@@ -67,15 +67,26 @@
 
 		<div class="mt-16 grid gap-px overflow-hidden rounded-2xl border border-neutral-200 bg-neutral-200 sm:grid-cols-2 lg:grid-cols-4 dark:border-neutral-800 dark:bg-neutral-800">
 			{#each features as f, i (f.title)}
-				<div class="bg-white p-6 dark:bg-neutral-950">
+				<!-- Inverts on hover: black card in light mode, white card in dark mode. -->
+				<div
+					class="group bg-white p-6 transition-colors duration-300 hover:bg-neutral-950 dark:bg-neutral-950 dark:hover:bg-white"
+				>
 					<div use:reveal={{ delay: (i % 4) * 90 }}>
-					<div
-						class="grid size-10 place-items-center rounded-lg bg-neutral-100 text-neutral-950 ring-1 ring-neutral-200 dark:bg-neutral-900 dark:text-white dark:ring-neutral-800"
-					>
-						<f.icon class="size-5" />
-					</div>
-					<h3 class="mt-4 font-semibold text-neutral-900 dark:text-white">{f.title}</h3>
-					<p class="mt-2 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">{f.body}</p>
+						<div
+							class="grid size-10 place-items-center rounded-lg bg-neutral-100 text-neutral-950 ring-1 ring-neutral-200 transition-colors duration-300 group-hover:bg-neutral-800 group-hover:text-white group-hover:ring-neutral-700 dark:bg-neutral-900 dark:text-white dark:ring-neutral-800 dark:group-hover:bg-neutral-100 dark:group-hover:text-neutral-950 dark:group-hover:ring-neutral-200"
+						>
+							<f.icon class="size-5" />
+						</div>
+						<h3
+							class="mt-4 font-semibold text-neutral-900 transition-colors duration-300 group-hover:text-white dark:text-white dark:group-hover:text-neutral-950"
+						>
+							{f.title}
+						</h3>
+						<p
+							class="mt-2 text-sm leading-relaxed text-neutral-600 transition-colors duration-300 group-hover:text-neutral-300 dark:text-neutral-400 dark:group-hover:text-neutral-600"
+						>
+							{f.body}
+						</p>
 					</div>
 				</div>
 			{/each}

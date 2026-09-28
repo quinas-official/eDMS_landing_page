@@ -53,7 +53,7 @@
 							<tr class="text-neutral-500 dark:text-neutral-400">
 								<th class="px-5 py-3 text-left font-medium">Role</th>
 								{#each permissions as p (p)}
-									<th class="px-3 py-3 text-center font-medium capitalize">{p}</th>
+									<th class="px-2 py-3 text-center sm:px-3 font-medium capitalize">{p}</th>
 								{/each}
 							</tr>
 						</thead>
@@ -67,7 +67,7 @@
 										{/if}
 									</td>
 									{#each permissions as p (p)}
-										<td class="px-3 py-3 text-center">
+										<td class="px-2 py-3 text-center sm:px-3">
 											{#if row.grants.includes(p)}
 												<Check class="mx-auto size-4 text-neutral-950 dark:text-white" aria-label="Granted" />
 											{:else}
