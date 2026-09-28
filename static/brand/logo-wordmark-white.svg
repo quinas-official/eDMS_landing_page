@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 64" width="752" height="256">
+		
+	<rect width="64" height="64" rx="14" fill="#fff"/>
+	<!-- previous version, behind -->
+	<rect x="23" y="11" width="26" height="34" rx="3" fill="#0a0a0a" fill-opacity="0.35"/>
+	<!-- current version, with folded corner -->
+	<path d="M18 18h15l8 8v23a3 3 0 0 1-3 3H18a3 3 0 0 1-3-3V21a3 3 0 0 1 3-3Z" fill="#0a0a0a"/>
+	<path d="M33 18v6a2 2 0 0 0 2 2h6Z" fill="#525252"/>
+	<!-- approved -->
+	<path d="M21.5 38.5l4.5 4.5 9-9.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+
+		<text x="78" y="45" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.5" fill="#ffffff">eDMS</text>
+	</svg>
