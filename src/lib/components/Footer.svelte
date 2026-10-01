@@ -44,6 +44,7 @@
 			<li><a class="hover:text-neutral-900 dark:hover:text-white" href="#architecture">Architecture</a></li>
 			<li><a class="hover:text-neutral-900 dark:hover:text-white" href="#get-started">Get started</a></li>
 			<li><a class="hover:text-neutral-900 dark:hover:text-white" href="#roadmap">Roadmap</a></li>
+			<li><a class="hover:text-neutral-900 dark:hover:text-white" href="#updates">Updates</a></li>
 		</ul>
 	</div>
 	<p class="container-page pb-10 text-center text-xs text-neutral-400 sm:text-left">

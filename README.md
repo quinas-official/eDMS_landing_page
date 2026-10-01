@@ -70,6 +70,7 @@ The landing page (`src/routes/+page.svelte`) is made of these sections, in order
 6. **Security**: role- and department-based access
 7. **Get Started**: setup for development and production (LAN server)
 8. **Roadmap**
+9. **Updates**: public changelog of features and fixes. Add entries to the `releases` array in `src/lib/components/Updates.svelte`, newest first.
 
 ## Theming
 
@@ -93,3 +94,14 @@ This regenerates:
 ## Deployment
 
 The project uses `@sveltejs/adapter-auto`, which detects supported hosts (Vercel, Netlify, Cloudflare Pages and others) automatically. To deploy anywhere that serves static files, switch to [`@sveltejs/adapter-static`](https://svelte.dev/docs/kit/adapter-static) in `svelte.config.js`.
+
+## Changes
+
+### 2026-09-28
+
+- **Added this README** with the project overview, tech stack, scripts, project structure and setup instructions.
+- **Feature cards invert on hover.** In light mode a card turns black with white text; in dark mode it turns white with black text. The icon box, title and description change color with the card over 300ms.
+- **Security table fits small screens.** The permission columns use tighter padding below the `sm` breakpoint, so the table no longer overflows on phones.
+- **Removed `static/__probe.html`**, a temporary page used to find elements overflowing the mobile viewport.
+- **Fixed indentation** of the card markup in `Features.svelte`.
+- **Initial release** of the landing page: Hero, Features, Version History, Workflow, Architecture, Security, Get Started and Roadmap sections, with light/dark theming and generated brand icons.

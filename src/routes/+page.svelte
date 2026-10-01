@@ -8,6 +8,7 @@
 	import Security from '$lib/components/Security.svelte';
 	import GetStarted from '$lib/components/GetStarted.svelte';
 	import Roadmap from '$lib/components/Roadmap.svelte';
+	import Updates from '$lib/components/Updates.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
@@ -30,5 +31,6 @@
 	<Security />
 	<GetStarted />
 	<Roadmap />
+	<Updates />
 </main>
 <Footer />

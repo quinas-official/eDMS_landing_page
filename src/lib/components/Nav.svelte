@@ -10,7 +10,8 @@
 		{ href: '#workflow', label: 'Workflow' },
 		{ href: '#architecture', label: 'Architecture' },
 		{ href: '#security', label: 'Security' },
-		{ href: '#roadmap', label: 'Roadmap' }
+		{ href: '#roadmap', label: 'Roadmap' },
+		{ href: '#updates', label: 'Updates' }
 	];
 	// "Get started" is the header button on wide screens, so it only appears as a link in the mobile menu.
 	const mobileLinks = [...links, { href: '#get-started', label: 'Get started' }];
