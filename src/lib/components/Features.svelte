@@ -8,7 +8,11 @@
 		Building2,
 		Eye,
 		Trash2,
-		Hash
+		Hash,
+		Search,
+		Bell,
+		DatabaseBackup,
+		Palette
 	} from '@lucide/svelte';
 	import { reveal } from '$lib/actions/reveal';
 	import SectionHeader from './SectionHeader.svelte';
@@ -53,6 +57,26 @@
 			icon: Trash2,
 			title: 'Soft delete & restore',
 			body: 'Deleted documents move to a recoverable state instead of disappearing, and can be restored with their full history intact.'
+		},
+		{
+			icon: Search,
+			title: 'Search inside documents',
+			body: 'Full-text search over titles, references and the text of Word, PDF and plain-text files, best matches first, with the matching passage highlighted.'
+		},
+		{
+			icon: Bell,
+			title: 'Comments & My tasks',
+			body: 'Each document has a discussion thread. An in-app bell and a My tasks page show what is waiting for you to review, approve or fix.'
+		},
+		{
+			icon: DatabaseBackup,
+			title: 'Backups & retention',
+			body: 'Automatic daily backups, one-click download and a restore script. Untouched documents can auto-archive, and old deletions are purged.'
+		},
+		{
+			icon: Palette,
+			title: 'Your branding',
+			body: 'Set your app name, logo and colours once. They apply to the web app, the desktop app and the sign-in page, with text kept readable.'
 		}
 	];
 </script>

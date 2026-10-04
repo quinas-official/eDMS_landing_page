@@ -6,22 +6,22 @@
 	const done = [
 		'Server foundation: adapter-node, SQLite, Drizzle, migrations',
 		'Auth, sessions, and one shared can() permission check',
-		'Documents API with disk storage, versioning and department scoping',
-		'Documents page on the API, plus the audit log API'
+		'Documents, audit log, dashboard, users, departments, settings and workflow on the real API',
+		'Backups, restore script, retention and archiving',
+		'Desktop app: Tauri build with a server-address setting',
+		'Branding, full-text search, comments, notifications and My tasks'
 	];
 
 	const next = [
-		'Move departments, users, workflow, dashboard and settings writes off mock data',
-		'Tauri static build, a server-address setting, and CORS for the desktop app',
-		'Tests and CI'
+		'Playwright tests for the main flows and a clean lint',
+		'CI on GitHub Actions, including desktop app builds'
 	];
 
 	const later = [
-		'Expiring access requests and approvals',
-		'Full-text search over extracted text',
-		'Archiving',
-		'Version rollback UI',
 		'Email notifications',
+		'Two-factor sign-in',
+		'OCR for scanned PDFs',
+		'Version rollback UI',
 		'Postgres option'
 	];
 </script>
@@ -29,8 +29,8 @@
 <section id="roadmap" class="border-t border-neutral-200 bg-neutral-50 py-24 sm:py-32 dark:border-neutral-800 dark:bg-neutral-900/40">
 	<div class="container-page">
 		<SectionHeader eyebrow="Roadmap" title="Where eDMS is today, and what comes next">
-			The backend and the Documents page are real. Departments, Users, Workflow and parts of Settings
-			are being moved from mock data onto the API one at a time.
+			Every page now runs on the real server and database, in the browser and the desktop app. Next
+			up is test coverage and CI.
 		</SectionHeader>
 
 		<div class="mt-16 grid gap-6 lg:grid-cols-3">

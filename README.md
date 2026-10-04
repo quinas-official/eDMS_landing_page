@@ -97,6 +97,14 @@ The project uses `@sveltejs/adapter-auto`, which detects supported hosts (Vercel
 
 ## Changes
 
+### 2026-10-04
+
+- **Brought the site up to date with the eDMS app** (see the app's own README):
+  - **Features:** four new cards for search inside documents, comments and My tasks, backups and retention, and branding.
+  - **Roadmap:** most items are now done. Next is tests and CI. Later is email notifications, two-factor sign-in, OCR, a version rollback UI and Postgres.
+  - **Updates:** now a changelog of the app's releases from Sep 25 to Oct 4. This site's own changes are tagged "Site".
+- **Added the Updates section** (`#updates`), linked from the nav and footer.
+
 ### 2026-09-28
 
 - **Added this README** with the project overview, tech stack, scripts, project structure and setup instructions.
