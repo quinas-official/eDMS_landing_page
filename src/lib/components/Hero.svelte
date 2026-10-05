@@ -91,7 +91,7 @@
 		>
 			<li class="flex items-center gap-1.5"><Network class="size-4" /> Runs entirely on your LAN</li>
 			<li class="flex items-center gap-1.5"><Globe class="size-4" /> Web app</li>
-			<li class="flex items-center gap-1.5"><Monitor class="size-4" /> Desktop app (Tauri 2)</li>
+			<li class="flex items-center gap-1.5"><Monitor class="size-4" /> Desktop app (Windows, macOS, Linux)</li>
 		</ul>
 
 		<div use:reveal={{ delay: 500 }} class="relative mx-auto mt-16 max-w-5xl">

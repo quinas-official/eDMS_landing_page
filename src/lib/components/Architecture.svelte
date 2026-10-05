@@ -11,8 +11,8 @@
 		{ area: 'File storage', value: 'Local disk, SHA-256 per version' },
 		{ area: 'UI', value: 'TailwindCSS 4 · bits-ui · Lucide · Chart.js' },
 		{ area: 'Previews', value: 'mammoth (DOCX → HTML) · diff' },
-		{ area: 'Desktop', value: 'Tauri 2' },
-		{ area: 'Tests', value: 'Vitest · Playwright' }
+		{ area: 'Desktop', value: 'Electron (sandboxed, no Node in the page)' },
+		{ area: 'Tests', value: 'Vitest · Playwright · GitHub Actions CI' }
 	];
 </script>
 
@@ -34,13 +34,12 @@
 					</div>
 					<p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">httpOnly session cookie</p>
 				</div>
-				<div class="rounded-xl border border-dashed border-neutral-300 bg-white p-4 dark:border-neutral-700 dark:bg-neutral-900">
+				<div class="rounded-xl border border-neutral-200 bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900">
 					<div class="flex items-center gap-3">
 						<Monitor class="size-5 text-neutral-950 dark:text-white" />
 						<p class="font-semibold text-neutral-900 dark:text-white">Desktop app</p>
-						<span class="ml-auto rounded-full border border-dashed border-neutral-400 px-2 py-0.5 text-[11px] font-medium text-neutral-600 dark:border-neutral-600 dark:text-neutral-300">In progress</span>
 					</div>
-					<p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">Bearer token, Tauri 2</p>
+					<p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">Bearer token, Electron</p>
 				</div>
 			</div>
 

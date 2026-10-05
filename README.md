@@ -97,6 +97,15 @@ The project uses `@sveltejs/adapter-auto`, which detects supported hosts (Vercel
 
 ## Changes
 
+### 2026-10-05
+
+- **Synced with the latest eDMS app README** (desktop app moved from Tauri to Electron, tests and CI added):
+  - **Hero:** the desktop app is now listed as "Windows, macOS, Linux" instead of "Tauri 2".
+  - **Architecture:** the stack table shows Electron and GitHub Actions CI. The desktop app card no longer says "In progress".
+  - **Workflow:** rejecting a document now needs a reason, which the owner sees.
+  - **Roadmap:** tests and CI are done. Next is code-signed installers, auto-update and open-and-edit in Word.
+  - **Updates:** new Oct 5 entry covering Electron, tests, CI and rejection reasons.
+
 ### 2026-10-04
 
 - **Brought the site up to date with the eDMS app** (see the app's own README):

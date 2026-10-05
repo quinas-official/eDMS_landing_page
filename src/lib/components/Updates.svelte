@@ -9,6 +9,32 @@
 	// Add an entry here when a visible change ships; keep README "Changes" in step.
 	const releases: Release[] = [
 		{
+			date: '2026-10-05',
+			label: 'Oct 5, 2026',
+			items: [
+				{
+					kind: 'Improved',
+					text: 'The desktop app now runs on Electron. It is sandboxed, opens outside links in your browser, and no longer needs Rust to build.'
+				},
+				{
+					kind: 'New',
+					text: 'Automated tests for sign-in, sessions and security checks, plus end-to-end tests covering sign-in, upload, search, rejection and approval.'
+				},
+				{
+					kind: 'New',
+					text: 'CI on GitHub Actions runs lint, type checks, tests and both builds on every change, and produces a downloadable Windows installer.'
+				},
+				{
+					kind: 'Improved',
+					text: 'Rejecting a document now requires a reason. It is added as a comment and the owner is notified.'
+				},
+				{
+					kind: 'Site',
+					text: 'Desktop app details updated for Electron, and the Roadmap now points to code signing, auto-update and open-and-edit.'
+				}
+			]
+		},
+		{
 			date: '2026-10-04',
 			label: 'Oct 4, 2026',
 			items: [

@@ -8,13 +8,15 @@
 		'Auth, sessions, and one shared can() permission check',
 		'Documents, audit log, dashboard, users, departments, settings and workflow on the real API',
 		'Backups, restore script, retention and archiving',
-		'Desktop app: Tauri build with a server-address setting',
-		'Branding, full-text search, comments, notifications and My tasks'
+		'Desktop app on Electron, with a server-address setting',
+		'Branding, full-text search, comments, notifications and My tasks',
+		'Unit, API and end-to-end tests, with CI on GitHub Actions'
 	];
 
 	const next = [
-		'Playwright tests for the main flows and a clean lint',
-		'CI on GitHub Actions, including desktop app builds'
+		'Code-signed desktop installers',
+		'Desktop auto-update',
+		'Open and edit: open a document in Word and save it back as a new version'
 	];
 
 	const later = [
@@ -29,8 +31,8 @@
 <section id="roadmap" class="border-t border-neutral-200 bg-neutral-50 py-24 sm:py-32 dark:border-neutral-800 dark:bg-neutral-900/40">
 	<div class="container-page">
 		<SectionHeader eyebrow="Roadmap" title="Where eDMS is today, and what comes next">
-			Every page now runs on the real server and database, in the browser and the desktop app. Next
-			up is test coverage and CI.
+			Every page runs on the real server and database, in the browser and the desktop app, with
+			tests running in CI. Next up is polishing the desktop app.
 		</SectionHeader>
 
 		<div class="mt-16 grid gap-6 lg:grid-cols-3">

@@ -45,7 +45,7 @@
 		</ol>
 		<p use:reveal={{ delay: 480 }} class="mt-4 flex items-center gap-2 text-sm text-neutral-500 dark:text-neutral-400">
 			<CornerDownRight class="size-4" />
-			At any review step a document can be <StatusBadge status="rejected" /> and sent back with a new version.
+			At any review step a document can be <StatusBadge status="rejected" /> with a reason, which the owner sees, and sent back with a new version.
 		</p>
 
 		<div use:reveal class="mt-12 overflow-hidden rounded-xl border border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
